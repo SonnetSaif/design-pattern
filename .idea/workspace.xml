@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="931fda0d-e768-4723-9123-36faa24f54ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designPatternPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builderExample/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builderExample/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builderExample/URLBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builderExample/URLTelescope.java" afterDir="false" />
+    <list default="true" id="931fda0d-e768-4723-9123-36faa24f54ea" name="Changes" comment="builder pattern">
+      <change afterPath="$PROJECT_DIR$/src/singletonExample/LoggerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singletonExample/SingletonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Demo.executor": "Run",
+    "Application.SingletonDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -59,7 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SingletonDemo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builderExample.Demo" />
       <module name="designPatternPractice" />
@@ -73,8 +66,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singletonExample.SingletonDemo" />
+      <module name="designPatternPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singletonExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonDemo" />
         <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
@@ -88,11 +95,34 @@
       <option name="presentableId" value="Default" />
       <updated>1734166145695</updated>
       <workItem from="1734166147070" duration="540000" />
-      <workItem from="1734167531264" duration="4120000" />
+      <workItem from="1734167531264" duration="4776000" />
+      <workItem from="1734197487570" duration="57000" />
+      <workItem from="1734333247504" duration="3409000" />
     </task>
+    <task id="LOCAL-00001" summary="builder pattern">
+      <option name="closed" value="true" />
+      <created>1734193541404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734193541404</updated>
+    </task>
+    <task id="LOCAL-00002" summary="builder pattern">
+      <option name="closed" value="true" />
+      <created>1734193652576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734193652576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="builder pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder pattern" />
   </component>
 </project>
